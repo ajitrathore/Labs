@@ -25,8 +25,7 @@ public class GroceryList {
         this.listOfItemForShopping = listOfItemForShopping;
     }
 
-    public void setListOfItemForShopping(ArrayList myGroceryList) {
-    }
+
 
     public void dispose() {
 
