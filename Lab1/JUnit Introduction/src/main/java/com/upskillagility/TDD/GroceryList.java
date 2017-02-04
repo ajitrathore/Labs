@@ -12,15 +12,19 @@ public class GroceryList {
         if (! condition)
             throw new Exception("Test failed");
     }
-
+/*
+    Run this class, right click on GrocertList and choose recompile and then run
+ */
     public static void main(String[] args)
     {
         try {
-        //Given that we have a new shopping list
+        //When we have a new list for shopping
+
         List listOfItemsForShopping = new ArrayList();
 
+        //then initial size of list is 0
 
-           assertTrue(listOfItemsForShopping.size()==0) ;
+         assertTrue(listOfItemsForShopping.size()==0) ;
 
         //When we add an object in the shopping list
 
@@ -30,15 +34,15 @@ public class GroceryList {
 
         // then the size of shoppinglist should be 1
 
-            assertTrue(listOfItemsForShopping.size()== 1) ;
+        /*
+            Implement your first automated test here -
+             use aserttrue method like above to compare
+             the size of shopping list and confirm that size is 1
+
+             */
 
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-
     }
-
-
-
 }
